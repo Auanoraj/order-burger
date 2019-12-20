@@ -17,10 +17,12 @@ import BurgerIngredient from './BurgerIngredient.js/BurgerIngredient';
         transformedIngredients = <p>Please add some Ingredients</p>
     };
   return (
-    <div className={classes.Burger}>
-      <BurgerIngredient type="bread-top"/>
-      {transformedIngredients}
-      <BurgerIngredient type="bread-bottom"/>
+    <div className={classes.container}>
+        <div className={classes.Burger}>
+          <BurgerIngredient type="bread-top"/>
+          {transformedIngredients}
+          <BurgerIngredient type="bread-bottom"/>
+        </div>
     </div>
   )
 }

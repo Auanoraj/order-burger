@@ -1,3 +1,13 @@
 .content {
-    margin-top: 72px;
+    /* margin-top: 72px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: -webkit-fill-available;
+}
+
+.Layout__content__25xoA{
+    display: flex;
+    flex-direction: row;
 }

@@ -1,12 +1,37 @@
-
-.Burger {
-    width: 100%;
-    margin: auto;
-    height: 250px;
+.container{
+    width: 60%;
+    height: 400px;
     overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Burger {
+    /* width: 100%; */
+    /* margin: auto; */
+    height: 400px;
+    /* overflow: scroll; */
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
+
+    /* margin-right: 3em; */
+}
+
+.container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+.container::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+.container::-webkit-scrollbar-thumb {
+    background: #703B09; 
 }
 
 @media (min-width: 500px) and (min-height: 400px) {
